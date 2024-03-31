@@ -25,6 +25,6 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build debug APK
-        uses: gradle/gradle-build-action@v2.4.2
+        uses: gradle/gradle-build-action@v3.1.0
         with:
           arguments: assembleDebug
