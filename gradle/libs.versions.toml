@@ -1,7 +1,7 @@
 [versions]
 agp = "8.3.1"
 appcompat = "1.6.1"
-core-ktx = "1.12.0"
+core-ktx = "1.13.1"
 commons-compress = "1.26.1"
 constraintlayout = "2.1.4"
 editor = "0.23.4"
