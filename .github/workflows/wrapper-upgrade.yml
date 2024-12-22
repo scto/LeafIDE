@@ -17,5 +17,3 @@ jobs:
 
       - name: Update Gradle Wrapper
         uses: gradle-update/update-gradle-wrapper-action@v2
-        with:
-          paths: */**, build-logic/**
