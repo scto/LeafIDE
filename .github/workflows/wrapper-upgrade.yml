@@ -1,4 +1,4 @@
-name: Update Gradle Wrapper
+name: Update Gradle Wrapper CI
 
 on:
   workflow_dispatch:
