@@ -1,11 +1,12 @@
-name: Update Gradle Wrapper CI
+name: Update Gradle Wrapper
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "40 14 * * 1-7"
+    - cron: "50 14 * * *"
+  workflow_dispatch:
+
+jobs:
   update-gradle-wrapper:
-  
     runs-on: ubuntu-latest
 
     steps:
